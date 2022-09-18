@@ -8,7 +8,7 @@ import {
   Inter_900Black
 } from '@expo-google-fonts/inter'
 import { Loader } from './src/components/Loader';
-import { Home } from './src/screens/Home';
+import { Routes } from './src/routes';
 
 export default function App() {
  const [fontsLoad] = useFonts({
@@ -22,7 +22,7 @@ export default function App() {
   return (
     <Background>
       <StatusBar barStyle="light-content" backgroundColor="transparent" translucent/>
-      {fontsLoad ? <Home/> : <Loader/>}
+      {fontsLoad ? <Routes/> : <Loader/>}
    
     </Background>
   );
