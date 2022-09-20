@@ -6,7 +6,7 @@
 
 #### Server: https://github.com/le0henr1que/nlw_server
 
-#### Mobule
+#### Mobile
 ![Bnner Mobile](http://url/to/img.png)
 
   
