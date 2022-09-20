@@ -12,25 +12,10 @@
   
 ### Download:  
 ```
-git clone https://github.com/le0henr1que/nlw_server.git
+git clone https://github.com/le0henr1que/nlw_mobile.git
 ```
 ### Run the App:  
 ```
-npm run dev
-```
-```
-Running in port 3333
+expo start
 ```
 
-# Request
-#### List Ads
-`GET /ads/`
-
-#### Create Ads
-`POST /games/:idGame/ads`
-
-#### List Games
-`GET /games/`
-
-#### Get Discord
-`GET /ads/:idAds/discord`
